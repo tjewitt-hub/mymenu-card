@@ -10,7 +10,14 @@
     <h1>Tees BBQ Bus - Menu Card</h1>
     <form id="menu-form">
         <label for="menu-input">Paste your menu as JSON</label>
-        <textarea id="menu-input" rows="8"></textarea>
+        <textarea id="menu-input" rows="8">
+            [
+              {"name": "Brisket Sandwich", "price": 4.5},
+              {"name": "BBQ Ribs", "price": 9},
+              {"name": "Brisket Nachos", "price": 6.25},
+              {"name": "Banana pudding", "price": 3}
+            ]
+        </textarea>
         <button type="submit">Show my menu</button>
     </form>
     <p id="count"></p>
